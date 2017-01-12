@@ -102,9 +102,9 @@ img.hover-color {
 
 .cover-image {
   background-color: black;
-  background-image: url("./img/kisar-gold.png");
+  background-image: url("../img/KISAR.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
@@ -116,16 +116,16 @@ div:hover>img.hover-color, div:hover>a>img.hover-color{
 
 a .img-caption {
 	text-align: center;
-	font-family: 'Bodoni MT', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-shadow: 1px 1px 4px black;
-	font-style: italic;
+	font-style: ;
 }
 .container a {
 	color: white;
 }
 .container a.cast-item:hover, .container a.cast-item:focus{
-	color: red;
+	color: #f3db6b;
 	text-decoration: none;
 }
 
@@ -145,8 +145,8 @@ a .img-caption {
 
 .content-section-a {
 	padding: 130px 0 50px 0;
-	color: white;
-	background-color:rgba(0,0,0,0.7);
+	/* color: white;
+	background-color:rgba(0,0,0,0.7); */
 }
 
 .content-section-a.community {
@@ -155,7 +155,7 @@ a .img-caption {
 
 .content-section-b {
   padding: 130px 0 50px 0;
-  background-color: rgba(255,255,255,0.7);
+/*   background-color: rgba(255,255,255,0.7); */
 }
 
 .content-section-a .well {
@@ -185,14 +185,14 @@ a .img-caption {
 
 .content-section-c {
   padding: 80px 0 50px 0;
-  background-color:rgba(0,0,0,0.7);
-  color: white;
+ /*  background-color:rgba(0,0,0,0.7);
+  color: white; */
 }
 
 .content-section-d {
   padding: 180px 0 50px 0;
-  background-color: rgba(0,0,0,0.97);
-  color: white;
+ /*  background-color: rgba(0,0,0,0.97);
+  color: white; */
 }
 
 .section-heading.nomargin{
