@@ -1,10 +1,11 @@
 body {
-  background: url(../img/1.jpg) no-repeat center center fixed;
+background : url(../img/background.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 body,
@@ -28,7 +29,7 @@ body, h1, h2, h3, h4, h5, h6{
 .topnav {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   background-color: transparent;
   border-color: transparent;
   text-transform: uppercase;
@@ -64,7 +65,7 @@ body, h1, h2, h3, h4, h5, h6{
 	text-shadow: 1px 1px 4px black;
 }
 .navbar-default .navbar-nav li a:hover,  
-.navbar-default .navbar-nav li a.focus { color: red; }
+.navbar-default .navbar-nav li a.focus { color: #f3db6b; }
 
 /* Selected Navbar Item */
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
